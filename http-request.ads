@@ -41,8 +41,6 @@ is
 	  end record;
    end Parse;
 
--- Note: Parse is a separate nested package.
-
 private
    type Parse_State is (
 	  -- Request Header --
